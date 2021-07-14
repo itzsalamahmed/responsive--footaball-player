@@ -7,7 +7,94 @@ body{
     background: white;
 }
 
+/* Header Style */
+header{
+    position: absolute;
+    width: 1440px;
+    height: 577px;
+    left: 0px;
+    top: 0px;
+    bottom: 80px;
+    background: #2D25A0;
+}
+
+/* Menu Style */
+.menu-info{
+    width: 1036px;
+    height: 44px;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 44px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-item{
+    font-size: 16px;
+}
+.menu-item a{
+    color: #FFFFFF;
+    padding: 36px;
+    text-decoration: none;
+}
+.menu-icon{
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px;
+    font-size: 16px;
+}
+.menu-icon i{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Menu Title */
+.container{
+    display: flex;
+    align-items: center;
+    background: #2D25A0;
+}
+.half-width{
+    width: 50%;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 30px;
+}
+h1{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.half-width-link{
+    display: flex;
+    align-items: center;
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+}
+a{
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+}
+.fa-arrow-right{
+    color: white;
+}
+.half-width img{
+    width: 80%;
+    padding-top: 80px;
+
+}
+.half-width-link:hover{
+    background: tomato;
+} 
+
+
 /* Top players Styles */
+.players-info{
+    margin-top: 40%;
+}
 .top-players{
     display: grid;
     justify-content: center;
@@ -17,11 +104,12 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 25px;
     padding-left: 3px;
+    margin-top: 90px;
 }
 .player{
     width: 330px;
     height: 474px;
-    padding-top: 15px;
+    padding-top: 10px;
     margin: 15px;
     background-color: white;
     box-shadow: 10px 10px 40px gray;
@@ -53,9 +141,9 @@ footer {
 
 }
 footer img{
-    width: 227.82px;
-    height: 67.42px;
-    margin-top: 27px;
+    width: 485px;
+    height: 110px;
+    margin-top: 30px;
 }
 footer i{
     margin-top: 20px;
